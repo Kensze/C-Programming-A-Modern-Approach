@@ -1,4 +1,4 @@
-/*
+R*
  * Name: Project05.c
  * Purpose: Write a program that asks a user to enter numbers 1 trough 16(in any order)
  * and display them in a 4 x 4 arrangement. Then show the sums of the rows, coloumns and diagonals
