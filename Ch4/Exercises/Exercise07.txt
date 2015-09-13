@@ -1,0 +1,12 @@
+
+It doesn't work when for example the total is 30
+
+First and correct steps
+30 - 1 = 29
+29 % 10 = 9
+9 - 9 = 0
+
+Second faulty
+30 % 10 = 0     // Where it goes wrong
+10 - 0 = 10
+
