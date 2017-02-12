@@ -18,7 +18,7 @@ int main(void)
          printf("%3.2f\t%3.2f\n", *aptr, *bptr);
     printf("is : %.2f\n", inner_product(a, b, n));
 
-    bptr = b;       // reset bptr to point to first element of b
+    bptr = b;       /* reset bptr to point to first element of b */
     printf("\n");
     printf("Inner product of\n");
     for (aptr = a; aptr < a + n; aptr++, bptr++)

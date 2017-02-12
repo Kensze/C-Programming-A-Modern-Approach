@@ -16,5 +16,5 @@ int main(void)
 
 int *find_middle(int a[], int n)
 {
-    return  a + (n / 2);      // returns memory address of middle element in a
+    return  a + (n / 2);      /* returns memory address of middle element in a */
 }

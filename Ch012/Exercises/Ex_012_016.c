@@ -6,13 +6,14 @@
 int find_largest(int a[], int n);
 
 
-// Should print highest temp for each day of the week
+/* Should print highest temp for each day of the week */
 int main(void)
 {
     int *p;
+    int i;
     int temperatures[DAYS][HOURS] = {[1][10] = 25, [1][17] = 23, [2][13] = 32, [2][15] = 40,
                                      [4][13] = 32};
-    for (int i = 0; i < 7; i++)
+    for (i = 0; i < 7; i++)
         printf("%d ", find_largest(temperatures[i], 24));
     printf("\n");
 }

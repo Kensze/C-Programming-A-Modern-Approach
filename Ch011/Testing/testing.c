@@ -12,7 +12,7 @@ int main(void)
 
     printf("p is pointing to i with memory %p and value %d\n", p, *p);
     *p = 31;
-    printf("I know changed memory %p with an assignment to *p with current value %d and i is %d\n", p, *p, i);
+    printf("i now changed memory %p with an assignment to *p with current value %d and i is %d\n", p, *p, i);
 
 
     return 0;
