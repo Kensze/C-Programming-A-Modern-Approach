@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+LINE_H	line.h	2;"	d
+MAX_LINE_LEN	line.c	5;"	d	file:
+MAX_WORD_LEN	justify.c	7;"	d	file:
+WORD_H	word.h	2;"	d
+add_word	line.c	/^void add_word(const char *word)$/;"	f
+clear_line	line.c	/^void clear_line(void)$/;"	f
+flush_line	line.c	/^void flush_line(void)$/;"	f
+line	line.c	/^char line[MAX_LINE_LEN+1];$/;"	v
+line_len	line.c	/^int line_len = 0;$/;"	v
+main	justify.c	/^int main(void)$/;"	f
+num_words	line.c	/^int num_words = 0;$/;"	v
+read_char	word.c	/^int read_char(void)$/;"	f
+read_word	word.c	/^void read_word(char *word, int len)$/;"	f
+space_remaining	line.c	/^int space_remaining(void)$/;"	f
+write_line	line.c	/^void write_line(void)$/;"	f
